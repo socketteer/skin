@@ -1,0 +1,28 @@
+# Backup files
+*_backup_*.py
+
+# Generated plots
+*.png
+
+# Session logs (large, per-session data)
+skin_session_*.json
+
+# Quick calibration logs (frequent, per-session)
+quickcal_*.json
+
+# Calibration data NOT referenced by configs
+# (referenced calibration files are tracked explicitly)
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
+
+# Suggested changes from Discord Claude (collaboration notes)
+suggested_changes.md
+
+# Old configs
+configs/skin_4probe_14x24.json

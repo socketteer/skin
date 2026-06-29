@@ -1,0 +1,28 @@
+{
+  "name": "4-probe 15x23",
+  "skin_w": 15,
+  "skin_h": 23,
+  "baud": 9600,
+  "port": "/dev/cu.usbmodem11301",
+  "min_total": 20,
+  "touch_on_threshold": 8,
+  "touch_off_threshold": 5,
+  "probes": {
+    "P1": [0.5, 22.0],
+    "P2": [0.5, 1.0],
+    "P3": [14.5, 1.0],
+    "P4": [14.5, 22.0]
+  },
+  "cal_files": {
+    "medium": "calibration_20260323_213444.json"
+  },
+  "palm_cal_file": "calibration_palm_20260321_004806.json",
+  "touch_grid": {
+    "x": [1.5, 3.5, 5.5, 7.5, 9.5, 11.5, 13.5],
+    "y": [1.5, 3.5, 5.5, 7.5, 9.5, 11.5, 13.5, 15.5, 17.5, 19.5, 21.5]
+  },
+  "corner_grid": {
+    "x": [1.5, 2.5, 3.5, 11.5, 12.5, 13.5],
+    "y": [1.5, 2.5, 3.5, 19.5, 20.5, 21.5]
+  }
+}
